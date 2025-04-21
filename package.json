@@ -1,0 +1,29 @@
+{
+  "name": "websheetrunner",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio run ./wdio.conf.js --spec ./tests/sheetTest.spec.js",
+    "parse": "wdio run ./wdio.conf.js --spec ./tests/sheetRunner.spec.js",
+    "start": "wdio run ./wdio.conf.js"
+  },
+  "keywords": [
+    "parser", "scraper", "web", "automation", "bot", "webdriver", "google", "sheets", "chromedriver", "wdio", "webdriverio" ],
+  "author": "gadiim",
+  "license": "ISC",
+  "description": "a bot that reads, executes, and writes to a table",
+  "dependencies": {
+    "chromedriver": "^135.0.2",
+    "dotenv": "^16.5.0",
+    "googleapis": "^148.0.0"
+  },
+  "devDependencies": {
+    "@wdio/cli": "^9.12.6",
+    "@wdio/local-runner": "^9.12.6",
+    "@wdio/mocha-framework": "^9.12.6",
+    "@wdio/spec-reporter": "^9.12.6",
+    "@wdio/visual-service": "^7.0.0",
+    "wdio-chromedriver-service": "^8.1.1",
+    "webdriverio": "^8.44.1"
+  }
+}

@@ -1,0 +1,31 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Log files
+*.log
+
+# WebdriverIO artifacts
+.allure-results/
+webdriver-screenshots/
+webdriver-logs/
+
+# Google credentials
+config/google/credentials.json
+
+# Test reports
+
+test-results/
+
+# Coverage reports
+coverage/
+coverage-*
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Backup files
+*.txt
